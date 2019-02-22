@@ -1,0 +1,156 @@
+/* index page style*/
+body{
+	background-image: linear-gradient(to left, AliceBlue ,silver);
+     text-align: center;
+}
+#header-1{
+	background: CornflowerBlue;
+	margin: 4%;
+	text-align: center;
+	padding: 2%;
+	color:black;
+	font-size: 40px;
+	border-radius: 10%;
+	box-shadow: 2px 2px 2px 2px;
+
+}
+.profile{
+	color:red;
+}
+#header-2{
+	background:MediumAquamarine;
+	margin: 4%;
+	padding: 2%;
+	color:black;
+	font-size: 20px;
+	border-radius:10%;
+	box-shadow: 2px 2px 2px 2px;
+}
+img{
+	width:20%;
+	height:20%;
+	margin:3%;
+	border-radius: 4%;
+}
+
+/*mobile view*/
+@media screen  and (max-width:480px ) {
+	body{
+		background:LightSlateGray;
+	}
+
+
+
+
+#main
+{
+	background:DarkCyan;
+	margin:1%;
+	display: inline-block;
+	justify-content: space-around;
+
+}
+#header-1{
+	background:Khaki;
+	margin:1%;
+	border-radius: 5%;
+	text-align: center;
+	box-shadow: 2px 2px 2px 2px;
+	width: 98%;
+	height:60%;
+}
+#header-2{
+	background:RosyBrown;
+	margin:2%;
+	border-radius:5%;
+	box-shadow: 2px 2px 2px 2px;
+	width:96%;
+	padding:1%;
+
+}
+img{
+	width:50%;
+	height:25%;
+	margin:3%;
+	border-radius: 4%;
+}
+}
+/*tablet view*/
+@media screen  and (min-width:481px) and (max-width:1024px ) {
+	body{
+		background:Salmon;
+	}
+
+
+
+
+#main
+{
+	background:PaleGreen;
+	margin:1%;
+	display: inline-block;
+	justify-content: space-around;
+
+}
+#header-1{
+	background:PowderBlue;
+	margin:1%;
+	border-radius: 5%;
+	text-align: center;
+	box-shadow: 2px 2px 2px 2px;
+	width: 98%;
+	height:60%;
+}
+#header-2{
+	background:PeachPuff;
+	margin:2%;
+	border-radius:5%;
+	box-shadow: 2px 2px 2px 2px;
+	width:96%;
+	padding:1%;
+
+}
+img{
+	width:50%;
+	height:25%;
+	margin:3%;
+	border-radius: 4%;
+}
+}
+
+#form{
+	background-image: linear-gradient(to left,lightcyan,whitesmoke);
+   
+}
+.main{
+	background:PeachPuff;
+	flex-direction: row;
+	margin: 3%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:center;
+	border-radius: 4%;
+	box-shadow: 2px 2px 2px 2px;
+}
+.sub{
+	width: 90%;
+	margin: 3%;
+	padding: 2%;
+	text-align: center;
+	border-radius: 4%;
+	background:PaleTurquoise;
+    box-shadow: 2px 2px 2px 2px;
+}
+.sub-1{
+	padding:1%;
+	width: 40%;
+	border-radius: 4%;
+	text-align: center;
+	margin: 3%;
+	background:PaleVioletRed;
+	box-shadow: 2px 2px 2px 2px;
+}
+select,input{
+	width:70%;
+	margin: 2%
+}

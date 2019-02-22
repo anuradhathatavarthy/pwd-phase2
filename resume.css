@@ -1,0 +1,29 @@
+body{
+	background:powderblue;
+}
+.maindiv{
+	background: white;
+	display: flex;
+
+}
+.leftdiv{
+	background:pink;
+	padding: 5%;
+	box-shadow: 2px 2px 2px 2px;
+	margin:2%;
+	width: 40%;
+	height: 40%;
+}
+.rightdiv{
+	background: pink;
+	box-shadow: 2px 2px 2px 2px;
+	margin: 4%;
+	padding: 5%;
+	width: 50%;
+	height: 50%;
+}
+img{
+border-radius: 5%;
+width: 50%;
+height: 50%;
+}
